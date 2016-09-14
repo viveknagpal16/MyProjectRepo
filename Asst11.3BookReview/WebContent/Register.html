@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register</title>
+</head>
+<body>
+<form method="post" action="/RegisterServlet">
+		<table>
+			<tr>
+				<td>Name :</td>
+				<td><input type="text" name="name"></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td><input type="password" name="password"></td>
+			</tr>
+			<tr>
+				<td>RePassword</td>
+				<td><input type="password" name="repassword"></td>
+			</tr>
+			<tr>
+				<td>Address</td>
+				<td><input type="text" name="address"></td>
+			</tr><tr>
+				<td>Email</td>
+				<td><input type="email" name="Email"></td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="role" value="admin" />Male</td>
+				<td><input type="radio" name="role" value="admin"
+					checked="checked" />Female</td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Register"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
